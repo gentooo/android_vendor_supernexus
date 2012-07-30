@@ -18,8 +18,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
-    vendor/supernexus/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
-    vendor/supernexus/proprietary/common/xbin/su:system/xbin/su
+    vendor/supernexus/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk \
+    vendor/supernexus/prebuilt/common/xbin/su:system/xbin/su
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
