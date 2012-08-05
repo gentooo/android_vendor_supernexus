@@ -1,7 +1,9 @@
 # Version information used on all builds
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=JRO03H BUILD_ID=JRO03H BUILD_VERSION_TAGS=release-keys BUILD_UTC_DATE=$(shell date +"%s")
 
+DATE = $(shell date +%Y%m%d)
+SUPERNEXUS_BUILD_VERSION = BUILD1
+
 # Rom Manager properties
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.modversion=SuperNexus-$(shell date +"%m-%d-%y") 
-
+    ro.sn.version=SuperNexus-$(TARGET_PRODUCT)-$(SUPERNEXUS_BUILD_VERSION)-$(DATE)

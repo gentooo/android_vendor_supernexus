@@ -8,7 +8,7 @@ $(call inherit-product, vendor/supernexus/configs/common.mk)
 $(call inherit-product, vendor/supernexus/configs/gsm.mk)
 
 # Setup device specific product configuration.
-PRODUCT_NAME := GalaxyS3
+PRODUCT_NAME := I9300
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := i9300
 PRODUCT_MODEL := GT-I9300

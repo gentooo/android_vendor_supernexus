@@ -1,2 +1,2 @@
-add_lunch_combo GalaxyS2-userdebug
-add_lunch_combo GalaxyS3-userdebug
+add_lunch_combo I9100-userdebug
+add_lunch_combo I9300-userdebug
