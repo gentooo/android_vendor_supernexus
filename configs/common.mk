@@ -21,6 +21,13 @@ PRODUCT_COPY_FILES += \
     vendor/supernexus/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/supernexus/prebuilt/common/xbin/su:system/xbin/su
 
+# OpenVPN and File System Packages
+PRODUCT_PACKAGES += \
+    openvpn \
+    e2fsck \
+    mke2fs \
+    tune2fs
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
