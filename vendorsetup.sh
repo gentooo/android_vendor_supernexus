@@ -1,3 +1,4 @@
 add_lunch_combo I777-userdebug
+add_lunch_combo I9000-userdebug
 add_lunch_combo I9100-userdebug
 add_lunch_combo I9300-userdebug
