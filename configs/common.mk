@@ -1,6 +1,6 @@
 # Generic product
-PRODUCT_NAME := SuperNexus
-PRODUCT_BRAND := SuperNexus
+PRODUCT_NAME := GalaxyS2
+PRODUCT_BRAND := GalaxyS2
 PRODUCT_DEVICE := generic
 
 # Common overlay
